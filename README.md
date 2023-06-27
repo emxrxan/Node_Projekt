@@ -2,7 +2,7 @@
 
 <h3>About</h3>
 <p align="left">
- In diesem Projekt können Sie neue Einträge hinzufügen und löschen. Dabei wird ein Eintrag an den API NODE Server gesendet der die Daten in einer Datenbank     speichert. Auf <a href="https://glitch.com/edit/#!/node-tagebuch?path=README.md%3A1%3A0">Glitch.com</a> können Sie sich nochmal den Code ansehen. Um sich ein Bild vom Projekt zu machen müssen Sie im Terminal eingeben: <span color="blue">node index.js</span> und dann auf preview klicken.
+ In diesem Projekt können Sie neue Einträge hinzufügen und löschen. Dabei wird ein Eintrag an den API NODE Server gesendet der die Daten in einer Datenbank     speichert. Auf <a href="https://glitch.com/edit/#!/node-tagebuch?path=README.md%3A1%3A0">Glitch.com</a> können Sie sich nochmal den Code ansehen. Um sich ein Bild vom Projekt zu machen müssen Sie im Terminal eingeben: <span style="color:blue">"node index.js"</span> und dann auf preview klicken.
 </p>
 
 <h3 align="left">Gearbeitet mit folgenden Programmiersprachen:</h3>
