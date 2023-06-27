@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+/*==FORMULAR==*/
+
+#form{
+    width: 100%;
+}
+#form > #formular{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    font-weight: bold;
+    padding: 2rem;
+    padding-left: 3rem;
+}
+
+#form > #formular > #datum{
+    width: 10rem;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+#form > #formular > #eintrag{
+    width: 90%;
+    height: 15rem;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+#form > #formular > button{
+    width: 10rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*==FORMULAR==*/
+
+/*==EINTRAG-CONTAINER==*/
+
+#alle_container{
+    padding: 1.5rem;
+}
+
+#alle_container > .eintrag_container{
+    margin-bottom: 2.5rem;
+}
+
+.eintrag_container > .datum{
+    margin: 1.3rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.eintrag_container > button{
+    width: 7rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.eintrag_container > p{
+    border-top: 2px solid black;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+/*==EINTRAG-CONTAINER==*/
+
+@media (max-width:425px){
+    #form > #formular{
+        padding: 2;
+        padding-left: 2rem;
+    }
+
+    .eintrag_container > .datum{margin: 1rem;}
+}

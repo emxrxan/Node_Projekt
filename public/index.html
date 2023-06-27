@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mein Tagebuch</title>
+        <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Tagebuch Eintrag</h1>
+        </header>
+
+        <!--Formular-->
+        <div id="form">
+            <form action="#" method="post" id="formular">
+                <label for="datum">Datum:</label>
+                <input id="datum" type="date" name="datum" form="formular" placeholder="jjjj-mm-tt" title="Datum des Eintrags (Format: jjjj-mm-tt)">
+                <label for="eintrag">Eintrag:</label>
+                <textarea id="eintrag"form="formular" name="eintrag" title="Dein Eintrag" placeholder="Neuen Eintrag eingeben ..."></textarea>
+                <button type="submit" form="formular">Neuer Eintrag</button>
+            </form>
+        </div>
+        <!--Formular-->
+
+        <!--Eintrag-Container-->
+        <div id="alle_container">
+            <div class="eintrag_container">
+                <span class="datum">01.01.2023</span>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat odit nisi id tenetur
+                    tempora veniam harum similique!
+                </p>
+            </div>
+        </div>
+        <!--Eintrag-Container-->
+
+        <script src="./src/js/Eintrag.js" defer></script>
+        <script src="./src/js/main.js" defer></script>
+
+    </body>
+
+</html>
