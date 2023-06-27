@@ -1,6 +1,5 @@
 "use-strict";
 
-const e = require('express');
 const exrpress = require('express');
 const app = exrpress();
 const DataStore = require('nedb');
